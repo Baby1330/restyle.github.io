@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url"https://stock.adobe.com/id/images/female-hand-holding-many-colorful-shopping-bags-on-blue-background-template/264922838";
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 300px;
+
+    background-color: rgba(8, 9, 9, 0.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+.container h1{
+    text-align: left;
+    color: #3c2f47;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #211262;
+}
+.container label{
+    text-align: left;
+    color: #45b6f7;
+}
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #ea66b8;
+    color: #1b1717;
+    font-size: 17px;
+}
+.container form button{
+    width: 100%;
+    padding: 5px 0;
+    border: #90caf9;
+    background-color:#bed440;
+    font-size: 18px;
+    color: #070606;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #8bb4e0;
+    font-size: normal;
+}
